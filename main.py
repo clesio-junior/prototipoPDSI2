@@ -10,7 +10,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello" : "lalalalalalalalala"}
+    return {"Hello" : "lala"}
 
 
 @app.post("/criar", status_code=status.HTTP_201_CREATED)
